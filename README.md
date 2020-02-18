@@ -17,4 +17,8 @@ Alexsis is a quick and dirty bot made with Python and love, meant to make it eas
 ## Installation
 Currently the bot is meant to be run on Windows, but by replacing the paths, and getting a linux version of 7zip (or using tar) its possible to run it on Linux
 
+# WARNING
+The bot includes functionality to download real malware, which it will store on whatever computer/server you run the bot from.
+So be careful, and don't run the bot on your personal home computer, get a dedicated VPS.
+
 
