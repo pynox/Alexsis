@@ -40,7 +40,7 @@ class URLHausCog(commands.Cog):
                     else:
                         embed.add_field(name=name, value=domain, inline=False)
                         counter = counter + 1
-        
+
         await ctx.send(embed=embed)
 
     @commands.command(name="findmalware")

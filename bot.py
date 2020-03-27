@@ -12,6 +12,7 @@ cogs.append('cogs.Malshare')
 cogs.append('cogs.Threatminer')
 cogs.append('cogs.Virustotal')
 cogs.append('cogs.URLHAUS')
+cogs.append('cogs.HoneyDB')
 
 if __name__ == '__main__':
     for ext in cogs:
