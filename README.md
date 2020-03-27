@@ -40,6 +40,6 @@ mal menu
 * New prefix
 ## WARNING
 The bot includes functionality to download real malware, which it will store on whatever computer/server you run the bot from.
-So be careful, and don't run the bot on your personal home computer, get a dedicated VPS.
-
+So be careful, and don't run the bot on your personal home computer, get a dedicated VPS. \
+To be extra safe, run the command in icalc.txt on the folder you want to use as a temporary folder for malware
 
