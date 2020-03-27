@@ -22,7 +22,7 @@ class MiscCog(commands.Cog):
     @commands.command(name='menu')
     async def menu(self, ctx):
         embed = discord.Embed(title="Awesome help menu", color=0xff6600)
-        embed.add_field(name="Prefix", value="Alexsis uses 'Mal<space>' as a prefix", inline=False)
+        embed.add_field(name="Prefix", value="Alexsis uses 'mal<space>' as a prefix", inline=False)
         embed.add_field(name="vtdetections", value="Use this command to check Virustotal detections, usage: mal vtdetections <hash>", inline=False)
         embed.add_field(name="vturlcheck", value="Use this command to check if a site is used for malicious purposes, usage: mal vturlcheck <url>", inline=False)
         embed.add_field(name="tmdetection", value="Same as the Virustotal command, but uses Threatminer's DB, usage: mal tmdetection <hash>", inline=False)
@@ -36,6 +36,10 @@ class MiscCog(commands.Cog):
         embed.add_field(name="mssearch", value="Searches the given hash on Malshare, usage: mal mssearch <hash>", inline=False)
         embed.add_field(name="findmalware", value="Lets you search URL haus for any malware and their according url , usage: mal findmalware <query>", inline=False)
         embed.add_field(name="findurl", value="Lets you search URL haus for any URL, and its according malware, usage: mal findurl <url>", inline=False)
+        embed.add_field(name="honeytwitter", value="Returns a txt file with the latest IOC's(IPS) from Twitter", inline=False)
+        embed.add_field(name="honeytwittersearch", value="Lets you search an IP on Twitter", inline=False)
+        embed.add_field(name="honeyservices", value="Returns the latest HoneyDB services under attack, and count of attacks", inline=False)
+        
         await ctx.send(embed=embed)
 
 
