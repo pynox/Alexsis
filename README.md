@@ -6,7 +6,7 @@ Alexsis is a quick and dirty bot made with Python and love, meant to make it eas
 * Malshare API key
 * Virustotal API key
 * Discord bot token
-* A config.py in the same path is bot.py, with the following variables
+* A config.py in the same path as bot.py, with the following variables
 	* discordToken = <your_token>
 	* malshareApi = <your_key>
 	* virustotalApi = <your_key>
