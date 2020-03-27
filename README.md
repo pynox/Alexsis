@@ -25,8 +25,19 @@ py bot.py
 ```
 Remember to add the config.py file in the same directory as bot.py, with the required values.
 
+## Usage
+Alexsis uses "mal [space]" as a prefix. \
+To get a list of available commands 
+```
+mal menu
+```
 
-
+## Todo
+* Create better command names
+* Add functionality to analyse EXE files, using modules like PeFile
+* YARA functionality? 
+* Linux version? 
+* New prefix
 ## WARNING
 The bot includes functionality to download real malware, which it will store on whatever computer/server you run the bot from.
 So be careful, and don't run the bot on your personal home computer, get a dedicated VPS.
